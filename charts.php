@@ -1,7 +1,7 @@
 <?php
 	require_once 'assets/php/header.php';
 ?>
-	<h1></h1>
+	<h1>Διαγράμματα</h1>
 	<h1> <?= basename($_SERVER['PHP_SELF']); ?>
  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

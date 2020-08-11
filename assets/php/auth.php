@@ -136,6 +136,8 @@
 			$stmt = $this-> conn-> prepare($sql);
 			$stmt-> execute(['email'=>$email]);
 			return true;
-		}			
+		}
+		
+		
 	}
 ?>		

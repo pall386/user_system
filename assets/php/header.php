@@ -57,13 +57,8 @@
           <a href="home.php" class="list-group-item text-light admin-link  <?=(basename($_SERVER['PHP_SELF']) == "home.php")?"active":""; ?>"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
           <a href="notes.php" class="list-group-item text-light admin-link <?=(basename($_SERVER['PHP_SELF']) == "notes.php")?"active":""; ?> "><i class="fas fa-sticky-note"></i>&nbsp;&nbsp;Notes</a>
           <a href="notification.php" class="list-group-item text-light admin-link <?=(basename($_SERVER['PHP_SELF']) == "notification.php")?"active":""; ?> "><i class="fas fa-bell"></i>&nbsp;&nbsp;Notification</a>
-<<<<<<< HEAD
-           <a href="information.php" class="list-group-item text-light admin-link <?=(basename($_SERVER['PHP_SELF']) == "information.php")?"active":""; ?> "><i class="fas fa-info"></i>&nbsp;&nbsp;Information</a>
-=======
           <a href="information.php" class="list-group-item text-light admin-link <?=(basename($_SERVER['PHP_SELF']) == "information.php")?"active":""; ?> "><i class="fas fa-info"></i>&nbsp;&nbsp;Information</a>
           <a href="charts.php" class="list-group-item text-light admin-link <?=(basename($_SERVER['PHP_SELF']) == "charts.php")?"active":""; ?> "><i class="fas fa-chart-line"></i>&nbsp;&nbsp;Charts</a>
-
->>>>>>> first commit
         </div>
       </div>
 

@@ -36,18 +36,6 @@
 	</div>	
 </div>
 
-<div class="row">
-	<div class="col-lg-12">
-		<div class="card-deck my-3">
-			<div class="card border-warning">
-				<div class="card-header bg-warning text-center text-white lead">
-					Διάγραμμα Υγρασίας - Θερμοκρασίας
-				</div>
-				<div id="chatOne" style="width: 99%; height: 400px;"></div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 
@@ -57,29 +45,6 @@
 </div>
 <!--...Area-->	
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Ώρες', 'Υγρασία', 'Θερμοκρασία'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
-        ]);
-
-        var options = {
-          title: 'Arduino Sensors',
-          curveType: 'function',
-          legend: { position: 'bottom' }
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('chatOne'));
-        chart.draw(data, options);
-      }
-    </script>
 </body>
 </html>

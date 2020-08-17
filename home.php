@@ -10,7 +10,7 @@
 	<div class="col-lg-12"> 
 		<div class="card-deck mt-3 text-light text-center font-weight-bold">
 			<div class="card bg-danger">
-				<div class="card-header">Θερμοκρασία</div>
+				<div class="card-header">μικρες κουραδες</div>
 				<div class="card-body">
 					<h1 class="display-4" required><?=$temp['sensors_temperature_data'];?>°C</h1>
 				</div>

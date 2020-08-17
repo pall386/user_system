@@ -15,7 +15,7 @@
 
 	<div class="card border">
 		<h5 class="card-header bg-primary d-flex justify-content-between">
-			<span class="text-light lead align-self-center">All notes</span>
+			<span class="text-light lead align-self-center">Όλες οι σημειώσεις</span>
 			<a href="#" class="btn btn-light" data-toggle="modal" data-target="#addNoteModal"><i class="fas fa-plus-circle fa-lg"></i>&nbsp;Add New Note</a>
 		</h5>
 		<div class="card-body">

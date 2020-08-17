@@ -16,5 +16,23 @@
 			$result = $stmt->fetchAll();
 			return $result;
 		}
+
+		//last temperature 
+		public function temp() {
+			$sql = "SELECT sensors_temperature_data FROM sensor_temperature ORDER BY sensors_data_id DESC LIMIT 1;";
+			$stmt = $this-> conn-> prepare($sql);
+			$stmt-> execute();
+			$row = $stmt->fetch(PDO::FETCH_ASSOC);
+			return $row;			
+		}		
+
+		//last Moisture 
+		public function moisture() {
+			$sql = "SELECT moisture_data FROM moisture_sensor ORDER BY moisture_id DESC LIMIT 1;";
+			$stmt = $this-> conn-> prepare($sql);
+			$stmt-> execute();
+			$row = $stmt->fetch(PDO::FETCH_ASSOC);
+			return $row;			
+		}		
     }
 ?>
